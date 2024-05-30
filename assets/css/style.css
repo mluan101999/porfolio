@@ -577,8 +577,8 @@ svg {
               PORTFOLIO
 ========================================================*/
 .portfolio-container {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+  display: flex;
+  /* grid-template-columns: 1fr 3fr; */
   gap: 2rem;
 }
 .portfolio .title h2 {
@@ -606,10 +606,10 @@ svg {
   color: var(--color-tertiary);
 }
 .portfolio-container .tab-content {
-  margin-top: 30px;
+  margin-top: 5px;
   display: none;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
+  gap: 2rem;
   overflow: hidden;
 }
 .portfolio-container .tab-content .image {
